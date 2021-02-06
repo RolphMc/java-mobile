@@ -1,0 +1,2 @@
+rootProject.name='Avaliador Imóvel Online - Calculadora'
+include ':app'

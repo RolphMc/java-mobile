@@ -1,0 +1,30 @@
+
+public class Fluxo {
+
+    private void maiorIdade(int idade){
+        /*VOID - Método sem retorno que ao ser concluído, apenas segue o fluxo do processo
+        *que lhe chamou*/
+        if(idade >= 18){
+            System.out.println("Maior de Idade");
+        }else {
+            System.out.println("Menor de Idade");
+        }
+    }
+
+    public static void main (String[] args){ //static²
+
+        Fluxo fluxo = new Fluxo(); //Instanciar fluxo¹
+        fluxo.
+    }
+    /*¹Instanciar uma classe significa criar um objeto a partir dessa classe
+     * de maneira bruta seria:
+     *  "Preparar uma forma para iniciar a confecção de um bolo" - sendo:
+     *  Forma = Class
+     *  Bolo = Objeto
+     *
+     * Significado de Instância:
+     * 1. característica do que é iminente, do que está prestes a acontecer; iminência.*/
+
+    /*²static - Uma class ao ser instanciada, não consta métidos statics na lista
+    *de métodos*/
+}

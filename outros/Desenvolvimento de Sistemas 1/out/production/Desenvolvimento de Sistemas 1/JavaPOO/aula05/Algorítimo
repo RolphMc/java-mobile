@@ -1,0 +1,42 @@
+Conta Banco
+     % Criar uma conta de banco, onde você pode depositar ou sacar dinheiro, nesta tarefa teremos:
+
+        @ 02 pessoas,  Jubileu e Creusa, cada um com a intenção de;
+            > Jubileu:
+                abrir uma conta Poupança;
+                Depositar R$ 300;
+            > Creusa:
+                abrir uma conta Corrente;
+                Depositar R$ 500;
+                Sacar R$ 100;
+
+        @ Regras das contas são:
+            > A Conta será um Objeto (classe) e terá os seguintes atributos;
+                ATRIBUTOS:
+                    + Número da conta;
+                    + Tipo; CC // CP
+                    - Dono;
+                    - Saldo;
+                    - Status; Padrão = falso (conta inativa)
+                Todos os Atributos deverão ter suas entradas e saídas
+
+                MÉTODOS Normais:
+                    + Abrir Conta;
+                        |Muda o Status para verdadeiro (Ativa):
+                        |Escolher o tipo de conta:
+                            Conta Corrente Credita R$ 50
+                            Conta Poupança Credita R$ 150
+                    + Fechar Conta;
+                        |Pessoa não pode ter pendencias
+                    + Depositar;
+                        |Para depositar, a conta tem que ser ativa
+                    + Sacar;
+                        |Para depositar, a conta tem que ser ativa
+                        |Necessário ter saldo;
+                    + Pagar Mensalidade;
+                        |Quando chamar o método pagar mensalidade o cliente vai pagar:
+                            CC = R$ 12
+                            CP = R$ 20
+                MÉTODOS Especiais:
+                    + Entradas e Saídas
+                    + Construtor

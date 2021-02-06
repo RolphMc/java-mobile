@@ -1,0 +1,21 @@
+function acontece (diaDaSenana, minimoAlunos){
+  let countAluno = 0;
+    for(let dia = 0; dia < diaDaSenana.length; dia ++){
+      if(diaDaSenana[dia] <= 0){
+      countAluno = countAluno+1;
+      }
+    }
+  return countAluno >= minimoAlunos;
+}
+
+function aberturas (arrayDias, minimoAlunos){
+  let diasQueTeveAula = [];
+  for(let dia = 0; dia < arrayDias.length; dia ++){
+      if(acontece(arrayDias[dia], minimoAlunos)){
+        diasQueTeveAula.push(true)
+      }else{
+        diasQueTeveAula.push(false)
+      }
+  }
+  return diasQueTeveAula;
+}

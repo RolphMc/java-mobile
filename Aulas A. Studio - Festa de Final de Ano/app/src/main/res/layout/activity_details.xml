@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:padding="8dp"
+    tools:context=".view.DetailsActivity">
+
+    <TextView
+        android:id="@+id/text_label_vai_participar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30sp"
+        android:text="@string/voc_vai_participar"
+        android:textSize="25sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/text_label_vai_participar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorPrimary" />
+
+    <CheckBox
+        android:id="@+id/check_participate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/voc_vai_participar"
+        android:textSize="30sp" />
+</RelativeLayout>

@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "": {"model": "flyhorsemod: block/example_block"}
+    }
+}

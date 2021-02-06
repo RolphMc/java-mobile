@@ -1,0 +1,29 @@
+Classe Abstrata:
+    Não porde ser instanciada. Só pode servir como "Mãe/Progenitora";
+
+Método Abstrato:
+    Declarado, mas não implementado na "Mãe/Progenitora";
+
+Classe Final:
+    Não pode ser Herdada por outra classe. Obrigatoriamente "FOLHA";
+
+Método Final:
+    Não pode ser sobrescrito pelas suas sub-classes. Obrigatoriamente herdado.
+
+link anotação:
+https://youtu.be/He887D2WGVw?list=PLHz_AreHm4dkqe2aR0tQK74m8SFe-aGsY&t=998
+
+ASSUNTOS TRATADOS:
+    Super-Classe
+    Sub-Classe
+    Ancestral
+    Descendente
+    Classe Raiz
+    Classe Folha
+    Generalização
+    Especialização
+    Tipos de Herança
+    Classe Abstrata
+    Método Abstrato
+    Classe Final
+    Método Final

@@ -1,0 +1,35 @@
+- Vantagens da programação orientada a objetos:
+    COMERNada:
+        CONFIÁVEL
+            O isolamento entre as partes gera softwares seguros, ao alterar uma parte, nenhuma outra é afetada.
+        OPORTUNO
+            Ao dividir tudo em partes, várias delas podem ser desenvolvidas em paralelo.
+        MANUTENÍVEL
+            Atualizar o software é mais fácil. Uma pequena alteração modificação vai beneficiar todas as partes que usarem o objeto.
+        EXTENSÍVEL
+            O software não é estável, ele deve crescer para permanecer útil.
+        REUTILIZÁVEL
+            Podemos usar objetos de um sistema que criamos em outro sistema futuro.
+        NATURAL
+            Mais fácil de entender, você se preocupa mais com a funcionalidade do que com os detalhes de implementação.
+
+
+- Pilares da programação orientada a objetos:
+    EHP:
+        ENCAPSULAMENTO
+            possibilita a distribuição de funções e responsabilidades para capsulas dentro do sistema que ao serem consultadas, atualizadas, ou manutenidas, não afetarão o sistema dando maior segurança ao procedimento.
+            termos usados:
+                    Implements - obriga uma classe a implementar determinados métodos
+        HERANÇA
+            Capacidade de subclasses/filhas Herdar atributos e variáveis de uma superclass/mãe.
+            termos usados:
+                Extends - usado para  unir mãe com filhas
+        POLIMORFISMO
+            Capacidade de fazer com que o mesmo código consiga executar diferentes ações e asummir variadas formas.
+
+- Linguagem de modelagem unificada - UML
+    RELACIONAMENTO ENTRE CLASSES - Tipos abstrato de dados:
+        AGREGAÇÃO
+
+- Modificadores de acesso
+    STATIC - Usado normalmente em atributos, caso seu valor mude em uma determinada Instancia, ela mudará automáticamente para todas as outras instancias.
