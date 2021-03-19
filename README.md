@@ -1,2 +1,2 @@
 # java-mobile
- Estudos e projetos completos referente ao curso se java mobile ministrado pelo Gabriel Ferrari 
+ Estudos e projetos referente ao curso se java mobile ministrado pelo Gabriel Ferrari 
